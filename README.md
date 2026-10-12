@@ -62,3 +62,4 @@ Next.js · TypeScript · Vercel · [vertexfacade.vercel.app](https://vertexfacad
 WordPress · WooCommerce · Shopify · Laravel · Next.js · FastAPI · Odoo
 Payment gateways · REST / Graph APIs · Redis · Queues · Supabase · Vercel · VPS
 ```
+
