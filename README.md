@@ -11,13 +11,31 @@ I design and ship production systems: payment gateways, marketplace / ERP middle
 | Area | Typical stack |
 |------|----------------|
 | **Payment & checkout** | WooCommerce plugins, HMAC/REST gateways, Authorize.Net, Crezco, Ginih, Stripe |
-| **Commerce integrations** | Amazon Business APIs, Odoo eCommerce, Shopify apps & middleware, product sync |
+| **Commerce integrations** | Amazon Business APIs, Amazon SP-API, Odoo eCommerce + custom modules, Shopify apps & middleware |
 | **WordPress / Woo** | Custom plugins, WP-CLI batch imports, Hostaway / SinaLite / courier APIs |
 | **Full-stack apps** | Next.js, Laravel, FastAPI, Supabase, Redis, queues |
 | **AI & automation** | WhatsApp Cloud API, local LLMs (Ollama), chatbots wired to real data |
 | **Security & ops** | RLS, rate limits, encrypted tokens, VPS hardening, official APIs only |
 
 ---
+
+
+### Odoo + Amazon SP-API
+
+Production pattern I ship for B2B / marketplace stores:
+
+| Layer | Role |
+|-------|------|
+| **Odoo Website / eCommerce** | Catalog UX, cart, checkout, customers, payments (source of truth) |
+| **Custom Odoo module** | Amazon order fields, credentials, sync logs, staff “submit to Amazon” |
+| **Middleware** | FastAPI or NestJS — LWA auth, rate limits, Redis cache, queues, webhooks |
+| **Amazon** | Business APIs (search, place order, tracking) and/or Selling Partner API (listings, orders, inventory, pricing) |
+
+**Rule:** the browser never calls Amazon. Tokens stay server-side.
+
+Typical outcomes: live product search on your domain, pay on Odoo, staff or automated fulfillment via Amazon, tracking synced back into Odoo.
+
+Hire this on Fiverr: [Odoo + Amazon SP-API / Business API](https://www.fiverr.com/snipper1212) (gig: develop Odoo apps and integrate Amazon SP-API or Amazon Business API).
 
 ### Recent builds
 
