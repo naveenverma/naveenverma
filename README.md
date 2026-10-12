@@ -153,6 +153,29 @@ Next.js · TypeScript · Vercel · [vertexfacade.vercel.app](https://vertexfacad
 
 ---
 
+
+---
+
+### Proof & hire
+
+| | |
+|--|--|
+| **Fiverr** | [@snipper1212](https://www.fiverr.com/snipper1212?public_mode=true) · **480+ reviews** · 5-star seller |
+| **Website** | [haatchmedia.com](https://www.haatchmedia.com) |
+| **LinkedIn** | [linkedin.com/in/naveenverma](https://www.linkedin.com/in/naveenverma) |
+| **GitHub** | [github.com/naveenverma](https://github.com/naveenverma) |
+
+**Fiverr portfolio** (published Oct 2026, anonymised case studies):
+
+1. Multi-Restaurant Online Ordering SaaS (WordPress)
+2. WooCommerce Catalogue Automation + AI Image Search
+3. AI Content Pipeline for a Games Wiki (WordPress)
+4. AI Affiliate Marketing Dashboard (WordPress Plugin)
+5. Customer Financing Portal on the Affirm API
+6. Shopify Checkout via Whop Payments (Middleware)
+
+**Featured gig:** [Develop website and integrate API, payment gateway and automation](https://www.fiverr.com/snipper1212/setup-any-payment-gateway-and-sms-api-in-php)
+
 ### Contact
 
 - Website: [haatchmedia.com](https://www.haatchmedia.com)
